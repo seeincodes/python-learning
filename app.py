@@ -1,7 +1,7 @@
 import math
 from tkinter.tix import INTEGER
 
-#3 INPUT
+## INPUT
 # name = input("What is your name? ")
 # print("Hello " + name)
 
@@ -11,10 +11,16 @@ from tkinter.tix import INTEGER
 
 # print("Your age is " + age)
 
-# FLOAT
-first = input("first ")
-second = input("second ")
+# # FLOAT
+# first = input("first ")
+# second = input("second ")
 
-sum = float(first) + float(second)
+# sum = float(first) + float(second)
 
-print("Sum is " + str(sum))
+# print("Sum is " + str(sum))
+
+course = "Python Tutorial for you"
+print(course.upper())
+print(course.find("t"))
+print(course.replace("for", "x"))
+print("Python" in course)
