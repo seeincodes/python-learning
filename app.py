@@ -27,9 +27,25 @@ from tkinter.tix import INTEGER
 # print("Python" in course)
 
 
-# LOGICAL OPERATORS
-price = 25
-print(price > 10 and price < 30)
-print(price > 10 or price < 30)
-print(not price > 10)
+# # LOGICAL OPERATORS
+# price = 25
+# print(price > 10 and price < 30)
+# print(price > 10 or price < 30)
+# print(not price > 10)
+
+
+# IFs
+weight = input("Weight: ")
+unit = input("(K)g or (L)bs: ")
+
+if unit.upper() == "K":
+    converted = float(weight) / 0.45
+    print("Weight in Lbs : " + str(converted))
+elif unit.upper() == "L":
+    converted = float(weight) * 0.45
+    print("Weight in Kgs : " + str(converted))
+else: 
+    print("Not a valid weight type.")
+
+    
 
