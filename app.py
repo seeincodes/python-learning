@@ -19,8 +19,17 @@ from tkinter.tix import INTEGER
 
 # print("Sum is " + str(sum))
 
-course = "Python Tutorial for you"
-print(course.upper())
-print(course.find("t"))
-print(course.replace("for", "x"))
-print("Python" in course)
+# # STRINGS
+# course = "Python Tutorial for you"
+# print(course.upper())
+# print(course.find("t"))
+# print(course.replace("for", "x"))
+# print("Python" in course)
+
+
+# LOGICAL OPERATORS
+price = 25
+print(price > 10 and price < 30)
+print(price > 10 or price < 30)
+print(not price > 10)
+
